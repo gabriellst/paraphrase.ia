@@ -1,7 +1,7 @@
 {
   "name": "paraphrase.ia",
   "version": "1.0.0",
-  "description": "Crie parafrases para os seus textos utilizando inteligência artificial!",
+  "description": "Create paraphrases from any text using artificial intelligence!",
   "permissions": ["tabs", "activeTab"],
   "host_permissions": ["<all_urls>"],
   "content_scripts": [
