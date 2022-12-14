@@ -3,7 +3,7 @@
 <p align=center><strong>paraphrase.ia</strong> is a Chrome extension that let's you make paraphrases of a highlighted text in your browser.</p>
 
 <p align=center>
-    <img style="margin-inline: auto" src="https://raw.githubusercontent.com/gabriellst/paraphrase.ia/master/readme_assets/Screenshot_3.png" style="height: 500px;">
+    <img style="margin-inline: auto" src="https://raw.githubusercontent.com/gabriellst/paraphrase.ia/master/readme_assets/main_page.png" style="height: 500px;">
 </p>
 
 ## What does it do? 📝
