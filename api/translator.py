@@ -25,5 +25,5 @@ class Translator():
     result = self.tokenizer.decode(output[0], skip_special_tokens=True)
     result = result.replace("♪", "").strip() # Weird Special Character
     
-    print(f'Translation: {self.source.capitalize} -> {self.target.capitalize}: {result}')
+    print(f'Translation: {self.source.capitalize()} -> {self.target.capitalize()}: {result}')
     return result
