@@ -1,16 +1,14 @@
-# paraphrase.ia ✏️ How to quickly paraphrase any text using A.I.
+<h1 align=center> paraphrase.ia ✏️ How to quickly paraphrase any text using A.I. </h1>
 
-**paraphrase.ia** is a Chrome extension that let's you make paraphrases of a highlighted text in your browser.
+<p align=center><strong>paraphrase.ia</strong> is a Chrome extension that let's you make paraphrases of a highlighted text in your browser.</p>
 
-<div>
-    <img src="https://gabrielaraujo.xyz/github/seriesmanagement/login.gif" style="height: 500px;">
-    <img src="https://gabrielaraujo.xyz/github/seriesmanagement/add.gif" style="height: 500px;">
-    <img src="https://gabrielaraujo.xyz/github/seriesmanagement/listagem.gif" style="height: 500px; float: right">
-</div>
+<p align=center>
+    <img style="margin-inline: auto" src="https://raw.githubusercontent.com/gabriellst/paraphrase.ia/master/readme_assets/Screenshot_3.png" style="height: 500px;">
+</p>
 
-## What does it do?
+## What does it do? 📝
 
-This is an app that harnesses the power of pre-trained transformers and their natural language processing capabilities to create portuguese paraphrases from any given text you have highlighted in your browser.
+It's an app that harnesses the power of pre-trained transformers and their natural language processing capabilities to create portuguese paraphrases from any given text you have highlighted in your browser.
 
 > **Note**: English support will be shipped in the next update.
 
@@ -35,6 +33,6 @@ Our application uses 3 different transformers language **models**.
 - 2 for translation.
   - [<ins>**Narrativa mBART EN to PT**</ins>](https://huggingface.co/Narrativa/mbart-large-50-finetuned-opus-en-pt-translation) 
   - [<ins>**Narrativa mBART PT to EN**</ins>](https://huggingface.co/Narrativa/mbart-large-50-finetuned-opus-pt-en-translation)
-  
-At the time of writting this readme, the model is hosted in a Google Cloud VM with an NVIDIA T4 GPU that has 16gb. It's service costs around $400 so it won't be up for long.
+ 
+At the time of writting this readme, the model is being hosted by a flask web server running in a Google Cloud VM with an NVIDIA T4 GPU. It's service costs around **$400** so it won't be up for long.
 **Unfortunately we can't host it for everyone**, for now, affording a GPU focused server is not a priority.
