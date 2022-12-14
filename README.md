@@ -1,4 +1,4 @@
-<h1 align=center> paraphrase.ia ✏️ How to quickly paraphrase any text using A.I. </h1>
+<h1 align=center> paraphrase.ia ✏️ How to quickly paraphrase texts using A.I. </h1>
 
 <p align=center><strong>paraphrase.ia</strong> is a Chrome extension that let's you make paraphrases of a highlighted text in your browser.</p>
 
