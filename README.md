@@ -15,8 +15,8 @@ Why only highlighted texts? Well, we thought it would be a better UX than just t
 
 ## How to use it:
 1. **Highlight** any text inside your browser.
-2. **Click** on the extension icon.
-3. Click the **"paraphrase now"** button and wait a few seconds.
+2. **Click** the extension icon.
+3. Click ***paraphrase now*** and wait a few seconds.
 
 * ### Showcase:
 
@@ -24,13 +24,13 @@ Why only highlighted texts? Well, we thought it would be a better UX than just t
 
 ### You're done!! 🎉🎉
 You'll receive a list with a few paraphrases that you may use to enhance your writting experience.
-Clicking on any result paraphrase will copy it's text so you can paste it anywhere you want.
+Clicking any result paraphrase will copy it's text so you can paste it anywhere you want.
 
 ## Installation
 
 1. Download any of the **extension_XX** folders based on your desired UI language. (Either **portuguese** or **english** at the moment).
 2. Go to your chrome extensions settings and then **activate developer mode.**
-3. Then click on the **load unpack** button and select the whole **extension_XX** folder in your downloads.
+3. Then click **load unpack** and select the whole **extension_XX** folder in your downloads.
 
 ### **Done!** 
 
