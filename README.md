@@ -32,6 +32,8 @@ Clicking any result paraphrase will copy it's text so you can paste it anywhere 
 2. Go to your chrome extensions settings and then **activate developer mode.**
 3. Then click **load unpack** and select the whole **extension_XX** folder in your downloads.
 
+![](https://raw.githubusercontent.com/gabriellst/paraphrase.ia/master/readme_assets/installation.gif)
+
 ### **Done!** 
 
 Now you'll be able to access ***paraphrase.ia*** by clicking it's icon on the top right corner of your browser.
@@ -48,7 +50,7 @@ Our application uses a transformers language **model** and a **translation api**
  
 At the time of writting this readme, the model is being hosted by a flask web server running in a Google Cloud VM with 4 cores and 16 GiB RAM. It's service costs around **$170** monthly not counting for the translation costs, i'm currently affording it, but it won't be up for long. **You may host it for yourself!**
 
-### If you wan't to host for yourself:
+### If you wan't to host it for yourself:
 
 1. **Create a folder** for our web server.
 2. **Download the API folder** of this repository.
@@ -61,6 +63,12 @@ pip install flask flask-cors pandas google-cloud-translate git+https://github.co
 6. Run the ```main.py``` file and your server should be running.
 
 **Finally**, inside the ```popup.js``` file, **replace** the ```api_url``` variable with your Flask server ip address and now all ***paraphrase.ia*** requests should be headed there.
+
+### Known Limitations
+- Selection feature doesn't work within applications where it's text is written inside a canvas tag.
+- Bigger phrases aren't being paraphrased correctly.
+- Sometimes paraphrases come duplicated.
+- Depending of which text you chose, it may not be able to paraphrase.
 
 ## Authors
 <div>
