@@ -2,7 +2,6 @@ from flask import Flask, request
 from flask_cors import CORS
 from paraphraser import Paraphraser 
 import json
-import os
 
 paraphraser = Paraphraser()
 app = Flask(__name__)
@@ -18,7 +17,7 @@ def check_request_body():
         print("Text: ", text)
 
         paraphrases = paraphraser.paraphraseia(text)
-        return paraphrases
+        return json.dumps({"data": paraphrases})
     else:
         return "Request body does not exist."
 
