@@ -32,23 +32,23 @@ Clicking any result paraphrase will copy it's text so you can paste it anywhere 
 2. Go to your chrome extensions settings and then **activate developer mode.**
 3. Then click **load unpack** and select the whole **extension_XX** folder in your downloads.
 
-![](https://raw.githubusercontent.com/gabriellst/paraphrase.ia/master/readme_assets/installation.gif)
+![](https://github.com/gabriellst/paraphrase.ia/blob/master/readme_assets/installation_guide.gif?raw=true)
 
 ### **Done!** 
 
 Now you'll be able to access ***paraphrase.ia*** by clicking it's icon on the top right corner of your browser.
 
-> **Note**: This process assumes our server is still running and you haven't hosted your own
+> **Note**: This process assumes our server is still running and you haven't hosted your own.
 
 ## Architecture
 
 Our application uses a transformers language **model** and a **translation api**.
-- Paraphrasing model. English To English.
+- Paraphrasing model.
   - [<ins>**Parrot**</ins>](https://huggingface.co/prithivida/parrot_paraphraser_on_T5) 
 - Translation API.
   - [<ins>**Google Cloud Translation**</ins>](https://cloud.google.com/translate) 
  
-At the time of writting this readme, the model is being hosted by a flask web server running in a Google Cloud VM with 4 cores and 16 GiB RAM. It's service costs around **$170** monthly not counting for the translation costs, i'm currently affording it, but it won't be up for long. **You may host it for yourself!**
+At the time of writting this readme, the model is being hosted by a flask web server running in a Google Cloud VM with 4 cores and 16 GiB RAM. It's service costs around **$170** monthly not counting for the translation costs, we're currently affording it, but it won't be up for long. **You may host it for yourself!**
 
 ### If you wan't to host it for yourself:
 
@@ -60,7 +60,7 @@ At the time of writting this readme, the model is being hosted by a flask web se
 ```html
 pip install flask flask-cors pandas google-cloud-translate git+https://github.com/PrithivirajDamodaran/Parrot_Paraphraser.git
 ```
-6. Run the ```main.py``` file and your server should be running.
+6. Run ```main.py``` and your server should be running.
 
 **Finally**, inside the ```popup.js``` file, **replace** the ```api_url``` variable with your Flask server ip address and now all ***paraphrase.ia*** requests should be headed there.
 
