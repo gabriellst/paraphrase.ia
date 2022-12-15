@@ -19,7 +19,7 @@ Why only highlighted texts? Well, we thought it would be a better UX than just t
 
 ### Showcase:
 
-![](https://raw.githubusercontent.com/gabriellst/paraphrase.ia/master/readme_assets/how_to.gif)
+![](https://raw.githubusercontent.com/gabriellst/paraphrase.ia/master/readme_assets/how_to_border.gif)
 
 ### You're done!! 🎉🎉
 You'll receive a list with a few paraphrases that you may use to enhance your writting experience.
