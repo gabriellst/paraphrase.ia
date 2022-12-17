@@ -38,7 +38,8 @@ const createParaphraseList = async (paraphrase) => {
   const data = await getParaphraseFromServer(paraphrase);
   const paraphrases = data["data"];
   if (paraphrases) {
-    results_list.innerHTML = paraphrases
+    const uniqueParaphrases = [...new Set(paraphrases)];
+    results_list.innerHTML = uniqueParaphrases
       .map((item) => `<li>${item}</li>`)
       .join("");
     results_div.setAttribute("hasResult", "True");
